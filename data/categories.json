@@ -16,14 +16,5 @@
     "id": 2,
     "dateCreatedAt": "2021-09-04T13:04:44.819Z",
     "dateUpdatedAt": "2021-09-04T13:04:44.819Z"
-  },
-  {
-    "code": "ban-than",
-    "name": "Bản Thân",
-    "description": "Những câu chuyện thú vị, sự kiện cuộc đời của bản thân.\nVí dụ: Đổi công ty, Tốt nghiệp đại học, Tình yêu đầu, ...",
-    "hide": false,
-    "id": 3,
-    "dateCreatedAt": "2021-09-04T13:07:44.228Z",
-    "dateUpdatedAt": "2021-09-18T14:53:37.696Z"
   }
 ]
