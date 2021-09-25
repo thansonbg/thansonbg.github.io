@@ -135,7 +135,7 @@ const BlogHome = (props) => {
     return (
         <div className={styles.wrapper}>
             <Head>
-                <title>Trần Đình Thắng | Blog</title>
+                <title>Thân Văn Sơn | Blog</title>
                 <meta name="description" content={"Blog của tôi"} />
             </Head>
             <section className={styles.blog_description}>
