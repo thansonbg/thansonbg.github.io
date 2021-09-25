@@ -140,7 +140,7 @@ const BlogHome = (props) => {
             </Head>
             <section className={styles.blog_description}>
                 <h2 className={styles.heading}>
-                    Blog cá nhân của Trần Đình Thắng
+                    Blog cá nhân của Thân Văn Sơn
                 </h2>
                 <div className={styles.intro}>
                     Chào mừng đến với blog của mình, bài viết sẽ mới được publish vào <span>00:00 chủ nhật</span> hàng tuần
