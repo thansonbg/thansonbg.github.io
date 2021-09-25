@@ -59,7 +59,7 @@ const AboutMe = (props) => {
     return (
         <div className={styles.about_me}>
             <Head>
-                <title>Trần Đình Thắng | Về tôi</title>
+                <title>Thân Văn Sơn | Về tôi</title>
                 <meta name="description" content={"Thông tin cơ bản của tôi"} />
             </Head>
             <section className={styles.about_me_section} style={width > 1200 ? {
