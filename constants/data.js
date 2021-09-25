@@ -26,7 +26,7 @@ export const listSocialResume = [
     },
     {
         link: 'https://www.facebook.com/SonSro9x',
-        username: 'Trầm Đình Thắng',
+        username: 'Thân Sơn',
         icon: <FacebookFilled />
     },
     {
