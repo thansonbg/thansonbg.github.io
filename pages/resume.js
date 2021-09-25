@@ -44,7 +44,7 @@ const Resume = (props) => {
     return (
         <div className={styles.resume_wrapper}>
             <Head>
-                <title>Trần Đình Thắng | Hồ sơ cá nhân</title>
+                <title>Thân Văn Sơn | Hồ sơ cá nhân</title>
                 <meta name="description" content={"Hồ sơ cá nhân của tôi"} />
             </Head>
             <div className={styles.title}>
