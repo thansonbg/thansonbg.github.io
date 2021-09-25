@@ -79,7 +79,7 @@ const BlogPost = (props) => {
     return (
         <>
             <Head>
-                <title>{dataPost.title} | Trần Đình Thắng</title>
+                <title>{dataPost.title} | Thân Văn Sơn</title>
                 <meta name="description" content={dataPost.description} />
                 <meta property="og:image" content={dataPost.thumbnail} />
                 <link rel="canonical" href={dataPost.thumbnail}/>
