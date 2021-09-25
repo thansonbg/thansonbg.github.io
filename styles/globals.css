@@ -1,0 +1,82 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.drawer-navbar .ant-drawer-body {
+  background-color: #1e2a3a!important;
+  padding: 0;
+}
+
+.menu_item.ant-menu-item-selected {
+  background-color: unset!important;
+}
+
+.blog_meta .ant-card-meta-title {
+  white-space: unset;
+}
+
+.item_sort_type .ant-select-item-option-selected{
+  background-color: #0a66c2!important;
+}
+
+pre {
+    overflow-x: auto;
+    background: #414449;
+    color: #b3bccc;
+    padding: 15px;
+    tab-size: 4;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .75);
+    margin: 0 10px;
+}
+pre code {
+    color: #b3bccc;
+    font-size: 1rem;
+}
+
+pre::-webkit-scrollbar {
+    background: #b3bccc;
+}
+pre::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 5px;
+}
+@media (max-width: 320px) {
+    pre code {
+        color: #b3bccc;
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+    pre code {
+        color: #b3bccc;
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 520px) {
+    pre code {
+        color: #b3bccc;
+        font-size: 0.9rem;
+    }
+}

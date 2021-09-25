@@ -1,0 +1,245 @@
+.blog_post {
+
+}
+
+.blog_title {
+    color: #292929;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.blog_meta {
+    color: #8f8f8f;
+    font-size: 0.8125rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.blog_meta_item:after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #8f8f8f;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -3px;
+}
+
+.post_topic {
+    padding: 1rem 0;
+}
+
+.post_topic > div {
+
+}
+
+.post_tags > div {
+    display: inline-block;
+}
+
+.post_tags a {
+    display: inline-block;
+}
+
+.topic_title {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.post_topic_item {
+    margin: 0.25rem 0;
+}
+
+.tag_item {
+    background-color: #22577A;
+    padding: 0.25rem 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0.25rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.tag_item:hover {
+    background-color: rgba(34, 87, 122, 0.8);
+}
+
+.post_category > div{
+    display: inline-block;
+}
+
+.post_category a {
+    display: inline-block;
+}
+
+.category_view {
+    background-color: #DF711B;
+    padding: 0.25rem 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blog_post_body {
+    overflow: hidden;
+    font-size: 0.95rem;
+}
+
+.blog_post_body img {
+    max-width: 100%!important;
+    height: unset!important;
+}
+
+.blog_post_body iframe {
+    max-width: 100%!important;
+}
+
+.blog_post_comments_section {
+
+}
+
+.fb_comments {
+
+}
+
+.relation_post {
+
+}
+
+.relation_header {
+    position: relative;
+    padding-left: 1.5rem;
+    color: #1e2a3a;
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.relation_header::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background: #1e2a3a;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btn_share_facebook {
+    background-color: #077ae9;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: 1px solid #077ae9;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.btn_share_facebook svg path {
+    fill: #fff;
+}
+
+.btn_share_facebook > span {
+    margin: 0 0.2rem;
+}
+.relation_list_post {
+
+}
+
+.item_relation_post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.item_relation_post > div {
+    height: 100%;
+}
+
+@media (max-width: 320px) {
+    .blog_title {
+        font-size: 1.1rem;
+    }
+    .blog_meta {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.75rem;
+    }
+    .blog_meta_item:after {
+        content: "";
+        display: none;
+    }
+    .blog_post_body {
+        font-size: 0.8rem;
+    }
+    .topic_title {
+        font-size: 0.85rem;
+    }
+    .category_view {
+        font-size: 0.8rem;
+    }
+    .tag_item {
+        font-size: 0.65rem;
+    }
+    .relation_header {
+        font-size: 1.15rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+    .blog_title {
+        font-size: 1.2rem;
+    }
+    .blog_meta {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.8rem;
+    }
+    .blog_meta_item:after {
+        content: "";
+        display: none;
+    }
+    .blog_post_body {
+        font-size: 0.9rem;
+    }
+    .topic_title {
+        font-size: 0.9rem;
+    }
+    .category_view {
+        font-size: 0.85rem;
+    }
+    .tag_item {
+        font-size: 0.7rem;
+    }
+    .relation_header {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 520px) {
+    .blog_title {
+        font-size: 1.35rem;
+    }
+}
+@media (min-width: 1100px) {
+    .blog_post_body {
+        font-size: 1rem;
+    }
+    .category_view {
+        font-size: 0.9rem;
+    }
+    .relation_header {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,197 @@
+.resume_wrapper {
+
+}
+
+.resume_wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+}
+.title h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.btn_download_resume {
+    background-color: #1e2a3a;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+}
+.btn_download_resume:hover {
+    background-color: #6B7AA1;
+}
+.resume_block {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1) !important;
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    color: #292929;
+}
+.resume_block hr {
+    border-color: #8d8d8d;
+}
+.resume_block svg path {
+    fill: #292929;
+}
+.resume_name {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1e2a3a;
+    margin: 0;
+    text-transform: uppercase;
+}
+.resume_role {
+    color: #8d8d8d;
+    font-size: 1.25rem;
+}
+.resume_header {
+    padding-bottom: 1rem;
+    /*border-bottom: 1px solid #8d8d8d;*/
+}
+.resume_title {
+
+}
+.resume_contact {
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: 1px solid #8d8d8d;
+}
+.resume_contact_item {
+    white-space: nowrap;
+}
+.contact_info {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+}
+.resume_intro {
+
+}
+.intro_left {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro_right {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume_profile_wrapper {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.resume_image {
+
+}
+.resume_media {
+    font-size: 0.85rem;
+}
+.resume_body {
+
+}
+.resume_main {
+    padding-right: 1rem;
+}
+.resume_aside {
+    padding-left: 1rem;
+}
+.resume_section {
+    padding: 1.5rem 0;
+}
+.resume_footer {
+    text-align: center;
+    padding: 0 2rem;
+}
+.resume_footer a {
+    color: #8d8d8d;
+    display: inline-block;
+    margin: 0.25rem 0.5rem;
+}
+.resume_footer a:hover {
+    color: #292929;
+}
+.resume_section_header {
+    font-size: 1.2rem;
+    position: relative;
+    padding-left: 1.5rem;
+    color: #1e2a3a;
+    font-weight: 700;
+    margin: 0;
+}
+.resume_section_header::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background: #1e2a3a;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.resume_section_body {
+
+}
+.resume_list li {
+    padding: 0.25em 0;
+}
+.resume_social_item {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.social_username {
+    padding-left: 0.25rem;
+}
+@media (max-width: 320px) {
+    .title h2 {
+        font-size: 1.75rem;
+    }
+    .resume_title h2 {
+        font-size: 1.5rem;
+    }
+    .resume_role {
+        font-size: 1rem;
+    }
+    .btn_download_resume {
+        font-size: 0.75rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+    .title h2 {
+        font-size: 2rem;
+    }
+    .resume_title h2 {
+        font-size: 1.75rem;
+    }
+    .resume_role {
+        font-size: 1.125rem;
+    }
+    .btn_download_resume {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 520px) {
+    .title h2 {
+        font-size: 2.25rem;
+    }
+    .resume_title h2 {
+        font-size: 1.875rem;
+    }
+    .resume_role {
+        font-size: 1.25rem;
+    }
+    .btn_download_resume {
+        font-size: 0.85rem;
+    }
+}

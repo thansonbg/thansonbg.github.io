@@ -1,0 +1,26 @@
+{
+  "name": "blog-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.4",
+    "antd": "^4.16.13",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "next": "11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-social": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}

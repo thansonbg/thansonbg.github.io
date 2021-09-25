@@ -1,0 +1,24 @@
+.blog_card_loading {
+    border-radius: 0.5rem;
+    max-width: 420px;
+}
+
+.card_loading_skeleton {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_loading_skeleton > div:first-child {
+    width: 100%;
+    padding: 0;
+}
+
+.card_loading_skeleton > div:first-child > span {
+    width: 100%;
+    height: 160px;
+    border-radius: 0!important;
+}
+
+.card_loading_skeleton > div:nth-child(2) {
+    padding: 24px;
+}

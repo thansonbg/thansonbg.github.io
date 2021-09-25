@@ -1,0 +1,31 @@
+.load_more {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load_more_btn {
+    background-color: #1e2a3a;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.load_more_btn:hover {
+    background-color: #6B7AA1;
+}
+
+.blog_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.blog_col > div {
+    height: 100%;
+    width: 100%
+}

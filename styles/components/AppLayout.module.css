@@ -1,0 +1,117 @@
+.navbar_slider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    background-color: #1e2a3a;
+}
+.navbar_slider::-webkit-scrollbar {
+    width: 0.5rem;
+}
+.navbar_slider::-webkit-scrollbar-track {
+    background: #1e2a3a;
+}
+.navbar_slider::-webkit-scrollbar-thumb {
+    background: #4B6587;
+    border-radius: 0.5rem;
+}
+.navbar_slider::-webkit-scrollbar-thumb:hover {
+    background: #6B7AA1;
+}
+.header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e2a3a!important;
+}
+.header_logo {
+    cursor: pointer;
+}
+.button_drawer {
+    background-color: transparent;
+}
+.button_drawer svg path {
+    fill: #fff;
+}
+.button_drawer:hover {
+    background-color: transparent;
+    border-color: #fff!important;
+}
+.button_drawer:focus {
+    color: #1e2a3a;
+    border-color: #fff!important;
+}
+.drawer {
+
+}
+.close_drawer {
+    padding-left: 1rem;
+    cursor: pointer;
+}
+.close_drawer svg{
+    width: 25px;
+    height: 25px;
+}
+.close_drawer svg path {
+    fill: #fff;
+}
+.site_layout {
+    padding: 2rem;
+    background-color: #fafafa;
+    min-height: 100vh
+}
+.site_body {
+    min-height: calc(100vh - 110px);
+}
+@media only screen and (min-width: 1550px){
+    .site_body{
+        padding: 0 100px;
+    }
+}
+@media only screen and (max-width: 1550px) and (min-width: 1400px){
+    .site_body{
+        padding: 0 70px;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1300px){
+    .site_body{
+        padding: 0 35px;
+    }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1150px){
+    .site_body{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 1150px) and (min-width: 768px){
+    .site_body{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 320px) {
+    .site_layout {
+        padding: 1rem;
+    }
+    .header {
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+    .site_layout {
+        padding: 1.25rem;
+    }
+    .header {
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 520px) {
+    .site_layout {
+        padding: 1.5rem;
+    }
+}

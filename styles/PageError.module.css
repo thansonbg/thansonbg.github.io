@@ -1,0 +1,11 @@
+.btn_back_home {
+    background-color: #1e2a3a;
+    border-color: #1e2a3a;
+    font-weight: 600;
+}
+
+.btn_back_home:hover {
+     background-color: #6B7AA1;
+     border-color: #6B7AA1;
+}
+

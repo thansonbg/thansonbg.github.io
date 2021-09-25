@@ -1,0 +1,23 @@
+.resume_block_item {
+    margin-top: 1rem;
+}
+
+.item_heading {
+
+}
+
+.item_title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.item_meta {
+    font-size: 0.75rem;
+    color: #8d8d8d;
+    text-align: right;
+}
+
+.item_content {
+    font-size: 0.85rem;
+}
